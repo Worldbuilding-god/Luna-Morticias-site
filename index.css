@@ -6,11 +6,38 @@
   font-style: normal;
 }
 
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.wavefont {
+  font-family: "Wavefont", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 100,
+    "YELA" -100;
+}
+
+.linefont {
+  font-family: "Linefont", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
 nav{
     background-color: blueviolet;
     color: white;
     text-align: center;
     font-size:x-large;
+    font-family: "Cinzel", serif;
     position: sticky;
     border-radius: 10px;
     padding: 5px;
@@ -20,6 +47,8 @@ nav{
 }
 
 body{
+    background-color: cadetblue;
+    padding: 1px 5px;
     p{
         font-size: x-large;
     }
@@ -27,10 +56,14 @@ body{
 
 footer{
     background-color: crimson;
+    text-align: center;
+    position:absolute;
+    clear:both;
+    width: 98%;
 }
 
 .bod{
-    background-color: cadetblue;
+    
 }
 
 .secret1{
@@ -38,6 +71,20 @@ footer{
     padding: 10px;
     font-size: 200%;
     font-family: "Libre Barcode 39", system-ui;
+}
+
+.secret2{
+    text-align: center;
+    padding: 10px;
+    font-size: 200%;
+    font-family: "Wavefont", system-ui;
+}
+
+.secret3{
+    text-align: center;
+    padding: 10px;
+    font-size: 200%;
+    font-family: "Linefont", system-ui;
 }
 
 img{
@@ -49,4 +96,15 @@ img{
 .mortum{
     width: 800px;
     height: auto;
+}
+
+.kat{
+    width: 500px;
+    height: auto;
+}
+
+.slink{
+    color: rgb(230, 20, 60);
+    text-decoration:line-through
+    /*color: crimson;*/
 }
