@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Bitcount+Single:wght@100..900&family=Bungee&family=Bungee+Spice&family=Cinzel:wght@400..900&family=Coral+Pixels&family=Flow+Circular&family=Foldit:wght@100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Honk:MORF@15&family=Kalnia+Glaze:wght@100..700&family=Libre+Barcode+39&family=Libre+Barcode+EAN13+Text&family=Linefont:wght@4..1000&family=Nabla&family=Playwrite+GB+J+Guides:ital@0;1&family=Redacted&family=Sixtyfour+Convergence&family=Wavefont:wght,ROND,YELA@4..1000,100,-100&display=swap');
+
+.libre-barcode-39-regular {
+  font-family: "Libre Barcode 39", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 nav{
     background-color: blueviolet;
     color: white;
     text-align: center;
-    font-size:x-large
+    font-size:x-large;
+    position: sticky;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+body{
+    p{
+        font-size: x-large;
+    }
+}
+
+footer{
+    background-color: crimson;
+}
+
+.bod{
+    background-color: cadetblue;
+}
+
+.secret1{
+    text-align: center;
+    padding: 10px;
+    font-size: 200%;
+    font-family: "Libre Barcode 39", system-ui;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mortum{
+    width: 800px;
+    height: auto;
 }
