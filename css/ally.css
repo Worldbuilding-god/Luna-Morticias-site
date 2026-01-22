@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Bitcount+Single:wght@100..900&family=Bungee&family=Bungee+Spice&family=Cinzel:wght@400..900&family=Coral+Pixels&family=Flow+Circular&family=Foldit:wght@100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Honk:MORF@15&family=Kalnia+Glaze:wght@100..700&family=Libre+Barcode+39&family=Libre+Barcode+EAN13+Text&family=Linefont:wght@4..1000&family=Nabla&family=Playwrite+GB+J+Guides:ital@0;1&family=Redacted&family=Sixtyfour+Convergence&family=Wavefont:wght,ROND,YELA@4..1000,100,-100&display=swap');
+
+.google-sans-code {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p{
+    font-family: "Google Sans Code", monospace;
+    font-size: xx-large;
+    color: white;
+}
+
+.flink{
+    color:darkblue;
+    text-decoration:line-through
+    /*color: crimson;*/
+}
